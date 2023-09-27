@@ -15,7 +15,7 @@ public class Imc {
         System.out.println(" Deseja calcular seu IMC ? responda S para sim");
         resp = sc.next();
         
-        while (resp.equals("S")){
+        while (resp.equals("S")|resp.equals("s")){
         System.out.println("Digite Nome:");
         nome = sc.next();
        
